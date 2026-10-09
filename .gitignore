@@ -1,0 +1,44 @@
+# ─── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Next.js Build Output ────────────────────────────────────────────────────
+.next/
+out/
+build/
+
+# ─── Environment Variables (NEVER commit secrets) ───────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── Database / Data Files ───────────────────────────────────────────────────
+# The live DB is auto-generated from seed on first run — don't commit it
+data/db.json
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ─── TypeScript ──────────────────────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── Testing ─────────────────────────────────────────────────────────────────
+coverage/
+
+# ─── OS / Editor Junk ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ─── Vercel ──────────────────────────────────────────────────────────────────
+.vercel
